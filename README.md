@@ -1,6 +1,4 @@
-
-# Sentiment Analysis in Arabic Articals 
-
+# Classification of Arabic Articles
 
 ## Introduction:
 The goal of this project is to use Natural Language Processing and Unsupervised Learning models to categorize them into sections. After refining aproach. In this project, we will analyze the articles and categorize them into groups such as political, economic, medical, technological, scientific and geographic articles.
