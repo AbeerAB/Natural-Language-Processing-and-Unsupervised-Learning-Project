@@ -20,8 +20,8 @@ dataset is provided by kaggle website, dataset contains titles and introductions
 ### Languages & Library
 * Python
 * Pandas
-* numpy
-* seaborn
+* Numpy
+* Seaborn
 * Sklearn
 
 ## Team Members
