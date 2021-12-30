@@ -14,9 +14,9 @@ data provided by kaggle <br>
 -	Min token length is 19 tokens <br>
 -	Number of 1050 rows <br>
 -	Number of columns 3 <br>
-   -	title<br>
-   -	Introduction <br>
-   -	index<br>
+     -	title<br>
+     -	Introduction <br>
+     -	index<br>
 
 ### Exploratory data analysis (EDA)
 -	Remove NULLS and Duplicate values
