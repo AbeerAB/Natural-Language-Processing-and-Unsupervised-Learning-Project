@@ -14,9 +14,9 @@ data provided by kaggle <br>
 -	Min token length is 19 tokens <br>
 -	Number of 1050 rows <br>
 -	Number of columns 3 <br>
---	title<br>
---	Introduction <br>
---	index<br>
+- -	title<br>
+- -	Introduction <br>
+- -	index<br>
 
 ### Exploratory data analysis (EDA)
 -	Remove NULLS and Duplicate values
@@ -37,10 +37,10 @@ data provided by kaggle <br>
 
 ## Algorithm: 
 
-### • Embedding
+###  Embedding
 -	CountVectorizer<br>
 -	TF-IDF<br>
-### •	Topic Modelling
+### 	Topic Modelling
 -	LatentDirichletAllocation(LDA)<br>
 -	LatentSemanticAnalysis(LSA)<br>
 -	Non-NegativeMatrixFactorization(NMF)<br>
@@ -49,25 +49,24 @@ data provided by kaggle <br>
 
 
 Best model is NMF with Count Vectorizer because it generates manful topics, but other models give unrelated terms for each topic <br>
-### o	Most common words in topic 1<br>
+### Most common words in topic 1<br>
  عام, عمل, عالم, شخص, حيا, تم, تاريخ, فتر, بدء, عمر, يوم, خاص
-### o	Most common words in topic 2<br>
+### Most common words in topic 2<br>
  مدين, دول, تقع, جنوب, تعتبر, مساح, بحر, شرق, عرب, جزير, سكان, غرب
-### o	Most common words in topic 3<br>
+### Most common words in topic 3<br>
  جسم, غذاء, تناول, انس, الصح, طبيع, انواع, حرار, يعتبر, لذل, مواد, لان 
-### o	Most common words in topic 4<br>
+### Most common words in topic 4<br>
  اصاب, حال, علاج, اعراض, مرض, مصاب, شخص, عدوي, فيروس, جهاز, الدم, تظهر
-### o	Most common words in topic 5<br>
+### Most common words in topic 5<br>
 طريق, ماء, يتم, استخدام, بشر, شعر, لمد, مكون, زيت, وصف, غسل, حصول
-
 
  
 ### We can notice that topics are:
-#### 	Topic 0: تاريخ
-#### 	Topic 1: جغرافيا
-#### 	Topic 2: الغذاء والطعام
-#### 	Topic 3: الطب
-#### 	Topic 4: الصحة والجمال
+-	Topic 0: تاريخ
+-	Topic 1: جغرافيا
+- 	Topic 2: الغذاء والطعام
+- 	Topic 3: الطب
+-	Topic 4: الصحة والجمال
 
 
 ## Recommendation system
