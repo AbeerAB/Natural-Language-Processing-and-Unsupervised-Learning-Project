@@ -8,44 +8,44 @@ dataset is provided by kaggle website, dataset contains titles and introductions
 
 ## Size of Data:
 data provided by kaggle <br>
-●	Max words number is 1972 words <br>
-●	Min words number is 116 words<br>
-●	Max token length is 397 tokens<br>
-●	Min token length is 19 tokens <br>
-●	Number of 1050 rows <br>
-●	Number of columns 3 <br>
-○	title<br>
-○	Introduction <br>
-○	index<br>
+- 	Max words number is 1972 words <br>
+-	Min words number is 116 words<br>
+-	Max token length is 397 tokens<br>
+-	Min token length is 19 tokens <br>
+-	Number of 1050 rows <br>
+-	Number of columns 3 <br>
+--	title<br>
+--	Introduction <br>
+--	index<br>
 
 ### Exploratory data analysis (EDA)
-●	Remove NULLS and Duplicate values
-●	Merge Title and Introduction columns
-●	Remove Unnecessary columns
-●	Add Artical column
+-	Remove NULLS and Duplicate values
+-	Merge Title and Introduction columns
+-	Remove Unnecessary columns
+-	Add Artical column
 
  
 ###Text preprocessing: <br>
-●	Remove Non-Arabic Char<br>
-●	Remove extra spaces<br>
-●	Remove Arabic Diacritics<br>
-●	Remove Arabic Numbers <br>
-●	Normalize Arabic Letters <br>ك → گ
-●	Remove Arabic Punctuations ؟ ، . /  !<br>
-●	Remove Arabic Stop Word (350word)<br>
-●	Remove Repeating Char <br>وو ---> و , يي ---> ي 
+-	Remove Non-Arabic Char<br>
+-	Remove extra spaces<br>
+-	Remove Arabic Diacritics<br>
+-	Remove Arabic Numbers <br>
+-	Normalize Arabic Letters <br>ك → گ
+-	Remove Arabic Punctuations ؟ ، . /  !<br>
+-	Remove Arabic Stop Word (350word)<br>
+-	Remove Repeating Char <br>وو ---> و , يي ---> ي 
 
 ## Algorithm: 
 
 ### • Embedding
-o	CountVectorizer<br>
-o	TF-IDF<br>
+-	CountVectorizer<br>
+-	TF-IDF<br>
 ### •	Topic Modelling
-o	LatentDirichletAllocation(LDA)<br>
-o	LatentSemanticAnalysis(LSA)<br>
-o	Non-NegativeMatrixFactorization(NMF)<br>
-o	CorEx<br>
-o	Clustring and (Elbow curve and TSNE) <br>
+-	LatentDirichletAllocation(LDA)<br>
+-	LatentSemanticAnalysis(LSA)<br>
+-	Non-NegativeMatrixFactorization(NMF)<br>
+-	CorEx<br>
+-	Clustring and (Elbow curve and TSNE) <br>
 
 
 Best model is NMF with Count Vectorizer because it generates manful topics, but other models give unrelated terms for each topic <br>
@@ -63,11 +63,11 @@ Best model is NMF with Count Vectorizer because it generates manful topics, but 
 
  
 ### We can notice that topics are:
-#### •	Topic 0: تاريخ
-#### •	Topic 1: جغرافيا
-#### •	Topic 2: الغذاء والطعام
-#### •	Topic 3: الطب
-#### •	Topic 4: الصحة والجمال
+#### 	Topic 0: تاريخ
+#### 	Topic 1: جغرافيا
+#### 	Topic 2: الغذاء والطعام
+#### 	Topic 3: الطب
+#### 	Topic 4: الصحة والجمال
 
 
 ## Recommendation system
@@ -97,23 +97,23 @@ o	Third article:<br>
 
 ## Tools
 ### 	Software Platform:<br>
-o	JupyterNotebook<br>
+-	JupyterNotebook<br>
 ### 	Programming Language:<br>
-o	Python<br>
+-	Python<br>
 ### 	Python Libraries:<br>
-o	Sklearn<br>
-o	Nltk<br>
-o	pyarabic.araby<br>
+- Sklearn<br>
+- Nltk<br>
+-	pyarabic.araby<br>
 ### 	Data manipulation libraries<br>
-o	Pandas<br>
-o	Numpy<br>
+-	Pandas<br>
+-	Numpy<br>
 ### 	Visualization<br>
-o	Matplotlib<br>
-o	Seaborn<br>
-o	Canva<br>
+-	Matplotlib<br>
+-	Seaborn<br>
+-	Canva<br>
 
 
 ## Future Work
-•	More Recommendation systems<br>
-•	Optimizing Arabic Python Libraries<br>
-•	Remove More Arabic Stop Word<br>
+-	More Recommendation systems<br>
+-	Optimizing Arabic Python Libraries<br>
+-	Remove More Arabic Stop Word<br>
